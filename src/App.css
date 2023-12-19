@@ -1,38 +1,109 @@
-.App {
+body {
+  background-color: white;
+  margin-top: 150px;
+}
+
+.weather-app {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 7px solid rgb(102, 188, 239);
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgb(178, 178, 178);
+}
+.weather-app-wrapper {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+h1 {
+  color: rgb(102, 188, 239);
+  font-size: 53px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  font-family: serif;
+  text-align: center;
+  cursor: grab;
+}
+
+.temperature {
+  font-size: 70px;
+  font-family: serif;
+  color: black;
+}
+
+.units {
+  color: black;
+  position: relative;
+  font-size: 16px;
+  top: -35px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+
+.btn-light {
+  width: 100px;
+  color: rgb(102, 188, 239);
+  font-family: serif;
+  font-size: 20px;
+  border-color: black;
+}
+.btn-primary {
+  width: 100px;
+  color: rgb(102, 188, 239);
+  font-family: serif;
+  font-size: 20px;
+  background-color: white;
+  border-color: black;
+}
+.form-control {
+  border-color: black;
+  color: rgb(102, 188, 239);
+  caret-color: rgb(102, 188, 239);
+  transition: none;
+}
+
+.form-control:focus {
+  border-color: black;
+  color: rgb(102, 188, 239);
+}
+.Weather-forecast {
+  margin-top: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Weather-forecast-date {
+  font-size: 16px;
+  color: rgb(135, 135, 135);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Weather-forecast-temperature {
+  font-size: 13px;
+  color: rgb(9, 9, 9);
+}
+.icon {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.state {
+  margin-top: 40px;
 }
