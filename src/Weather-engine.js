@@ -28,7 +28,6 @@ export default function WeatherDataengine() {
   }
 
   function search() {
-    let city = "London";
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3a94f3778290bfeee61278505dbbe51d&units=metric`;
     axios.get(url).then(handleResponse);
   }
