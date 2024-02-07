@@ -1,8 +1,8 @@
 .Weather-engine {
   font-family: arial, sans-serif;
-  border: 1px solid #dadde1;
+  border: 6px solid #dadde1;
   padding: 16px;
-  border-radius: 4px;
+  border-radius: 9px;
   color: rgb(135, 135, 135);
 }
 
